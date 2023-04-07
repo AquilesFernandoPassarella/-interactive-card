@@ -3,37 +3,79 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body{
-    font-family: 'Hanken Grotesk', sans-serif;;
+  html{
+    font-family: 'Hanken Grotesk', sans-serif;
   }
 
-  .cabecalgo-esquerdo{
+ .cabeca{
+  display: flex;
+  
+ }
+  .cabecalho-esquerdo{
     display: flex;
+    background-color: aliceblue;
+    margin: auto;
   }
-  
-  
-  .left-cards{
-    display: flex;
-    flex-flow: column wrap;
-    
-    
-    
+  .container{
+    padding-top: 190px ;
   }
 
-  .left-card{
-    display: flex;
-    flex-direction: row;
-  }
   .card-image__front{
+    display: flex;
+    flex-direction: column;
     margin-left: -300px;
-    margin-top: 170px;
-    
   }
-  .card-logo{
-    margin-top: -225px;
-    margin-left: -275px;
+
+  .card-front{
+    width: 447px;
+    height: 245px;
   }
+  
+  .card-number{
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 4px;
+  }
+
+  .card-name{
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .card-date{
+    color: #ffffff;
+  }
+
+  .cards-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: -215px;
+    gap: 36px;
+    margin-left: 30px;
+  }
+
+  .card-information{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-date{
+    margin-right: 110px;
+  }
+  
   .card-image__back{
-    margin-top: 200px;
-    margin-left: -250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-left: -220px
+  }
+
+  .number-cvc{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: -135px;
+    margin-left: 360px;
   }
