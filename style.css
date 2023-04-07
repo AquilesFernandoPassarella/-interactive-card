@@ -6,3 +6,34 @@
   body{
     font-family: 'Hanken Grotesk', sans-serif;;
   }
+
+  .cabecalgo-esquerdo{
+    display: flex;
+  }
+  
+  
+  .left-cards{
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+    
+  }
+
+  .left-card{
+    display: flex;
+    flex-direction: row;
+  }
+  .card-image__front{
+    margin-left: -300px;
+    margin-top: 170px;
+    
+  }
+  .card-logo{
+    margin-top: -225px;
+    margin-left: -275px;
+  }
+  .card-image__back{
+    margin-top: 200px;
+    margin-left: -250px;
+  }
