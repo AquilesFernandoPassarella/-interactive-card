@@ -1,81 +1,169 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html{
-    font-family: 'Hanken Grotesk', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Hanken Grotesk", sans-serif;
+}
 
- .cabeca{
+.cabeca {
   display: flex;
+}
+.cabecalho-esquerdo {
+  display: flex;
+  /* background-color: aliceblue; */
+  margin: auto;
+}
+.container {
+  padding-top: 190px;
+}
+
+.card-image__front {
+  display: flex;
+  flex-direction: column;
+  margin-left: -300px;
+}
+
+.card-front {
+  width: 447px;
+  height: 245px;
+}
+
+.card-number {
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+.card-name {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-date {
+  color: #ffffff;
+}
+
+.cards-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: -215px;
+  gap: 36px;
+  margin-left: 30px;
+}
+
+.card-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-date {
+  margin-right: 110px;
+}
+
+.card-image__back {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  margin-left: -220px;
+}
+
+.number-cvc {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top: -135px;
+  margin-left: 360px;
+}
+.formulario{
+  margin-left: 200px;
+  margin-top: 256px;
+}
+.upper {
+  text-transform: uppercase;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsl(278, 68%, 11%);
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.up {
+  text-transform: uppercase;
+}
+.botao {
+  margin-top: 40px;
+  background-color: hsl(278, 68%, 11%);
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 15px 154px;
+  letter-spacing: 2px;
+}
+.date {
+  display: flex;
+  gap: 10px;
+}
+
+#nome {
   
- }
-  .cabecalho-esquerdo{
-    display: flex;
-    background-color: aliceblue;
-    margin: auto;
-  }
-  .container{
-    padding-top: 190px ;
-  }
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 388px;
+  border: solid hsl(270, 3%, 87%) 0.2px;
+}
+#nome::placeholder {
+  color: hsl(270, 3%, 87%);
+  font-size: 18px;
+}
 
-  .card-image__front{
-    display: flex;
-    flex-direction: column;
-    margin-left: -300px;
-  }
+#card {
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 388px;
+  border: solid hsl(270, 3%, 87%) 0.2px;
+}
 
-  .card-front{
-    width: 447px;
-    height: 245px;
-  }
-  
-  .card-number{
-    color: #ffffff;
-    font-size: 32px;
-    letter-spacing: 4px;
-  }
+#card::placeholder {
+  color: hsl(270, 3%, 87%);
+  font-size: 18px;
+}
 
-  .card-name{
-    color: #ffffff;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
+#month-card, #year-card{
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border: solid hsl(270, 3%, 87%) 0.2px;
+  padding: 15px;
+  width: 388px;
+  width: 80px;
 
-  .card-date{
-    color: #ffffff;
-  }
+}
 
-  .cards-details{
-    display: flex;
-    flex-direction: column;
-    margin-top: -215px;
-    gap: 36px;
-    margin-left: 30px;
-  }
+#month-card::placeholder, #year-card::placeholder{
+  color: hsl(270, 3%, 87%);
+  font-size: 18px;
+}
 
-  .card-information{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .card-date{
-    margin-right: 110px;
-  }
-  
-  .card-image__back{
-    display: flex;
-    flex-direction: column;
-    margin-top: 65px;
-    margin-left: -220px
-  }
-
-  .number-cvc{
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 15px;
-    margin-top: -135px;
-    margin-left: 360px;
-  }
+#cvc{
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border: solid hsl(270, 3%, 87%) 0.2px;
+  padding: 15px;
+  width: 210px;
+}
+#cvc::placeholder{
+  color: hsl(270, 3%, 87%);
+  font-size: 20px;
+}
